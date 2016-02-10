@@ -1,0 +1,12 @@
+#source 'https://github.com/CocoaPods/Specs.git'
+source 'https://gh.webtrends.corp/cloughb/ios-pod.git'
+
+target 'SwiftSample' do
+  pod 'Webtrends-SDK/Core', '~>3.0'
+  pod 'Webtrends-SDK/Optimize', '~>3.0'
+
+end
+target 'SwiftSampleWatch Extension' do
+  pod 'Webtrends-SDK/Watch'
+  platform :watchos, '2.0'
+end

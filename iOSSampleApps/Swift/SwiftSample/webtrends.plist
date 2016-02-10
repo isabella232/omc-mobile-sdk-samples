@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>wt_dc_send_interval_millis</key>
+	<string>6000</string>
+	<key>wt_dc_collection_url_base</key>
+	<string>https://scs.webtrends.com/v2/</string>
+	<key>wt_dc_dcsid</key>
+	<string>dcsqm14ha10000s142fw1a8lw_6m3f</string>
+	<key>wt_opt_url_base</key>
+	<string>https://ots.optimize.webtrends.com/ots/api/rest-1.1/</string>
+	<key>wt_opt_project_locations</key>
+	<string>WTBankSample.app/persistent, WTBankSample.app/aboutUs, WTBankSample.app/switchOnValue</string>
+	<key>wt_opt_domain_id</key>
+	<string>1420633</string>
+	<key>wt_opt_key_token</key>
+	<string>7a01ed49fe009bf5bb2a9f85ba0d2239bf270563838d</string>
+	<key>wt_opt_staging_mode</key>
+	<string>true</string>
+</dict>
+</plist>

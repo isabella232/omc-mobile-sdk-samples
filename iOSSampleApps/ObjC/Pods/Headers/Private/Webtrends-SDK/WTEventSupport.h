@@ -1,0 +1,1 @@
+../../../Webtrends-SDK/Headers/WTEventSupport.h

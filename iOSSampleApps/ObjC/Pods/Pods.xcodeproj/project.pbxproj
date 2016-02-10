@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2911C237F8AF74120064585AD708689A /* Pods-ObjCSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92286884AE2C8FE40338C66F5A603B32 /* Pods-ObjCSample-dummy.m */; };
+		2C14EE700774665ACADDAD115205D13C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6B89BDF4940B4AF9D57D7449055DAA /* Foundation.framework */; };
+		41CB74A44299F721C4B88C185426AB3E /* Pods-WTBank ObjC Watch App Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B3A44B59AFF8EE6935DD9C2615F7D3 /* Pods-WTBank ObjC Watch App Extension-dummy.m */; };
+		8146E471FEF3FF8DD17E8DB97D120418 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D79CDBEF832FB5A2106CDDC44C55D38 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		003533544A0DA63182E0F0C3355579D7 /* libWebtrendsWatchSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libWebtrendsWatchSDK.a; sourceTree = "<group>"; };
+		0389F2E681029FBF72A19BE7F69A3A3F /* WebtrendsWatchSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebtrendsWatchSDK.h; path = WatchHeaders/WebtrendsWatchSDK.h; sourceTree = "<group>"; };
+		041B633A0FF78D8481724DEA05E866F0 /* wtdb.sqlite */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = wtdb.sqlite; path = SharedAssets/wtdb.sqlite; sourceTree = "<group>"; };
+		04A6CFF8DADFBC5B684FA909658694D5 /* WebtrendsSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebtrendsSDK.h; path = Headers/WebtrendsSDK.h; sourceTree = "<group>"; };
+		0FEB744C6181D70267D32205B49EF8D9 /* Pods-ObjCSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ObjCSample.release.xcconfig"; sourceTree = "<group>"; };
+		18B5A99071E2B7C023CB244A6BE94CD5 /* WTOptimizeTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTOptimizeTextField.h; path = Headers/WTOptimizeTextField.h; sourceTree = "<group>"; };
+		2860D6C0D3611D174CE8D6A211278A00 /* WTOptimizeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTOptimizeManager.h; path = Headers/WTOptimizeManager.h; sourceTree = "<group>"; };
+		29F7CA6687FF1FBD868103FF069BB407 /* libWebtrendsSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libWebtrendsSDK.a; sourceTree = "<group>"; };
+		3A7ACED1A618828222EF3B486128DD71 /* Pods-WTBank ObjC Watch App Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WTBank ObjC Watch App Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F9A39A96D53293D0FB2A4264618AC8F /* WTWebViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTWebViewDelegate.h; path = Headers/WTWebViewDelegate.h; sourceTree = "<group>"; };
+		54EDD8FC783C0BF7B5F4EDCF2D6896E8 /* WTEventSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTEventSupport.h; path = Headers/WTEventSupport.h; sourceTree = "<group>"; };
+		580E60B35D2971F7CD3F40C7FF2C60A6 /* libPods-WTBank ObjC Watch App Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WTBank ObjC Watch App Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		589E2ACED2622223F2C438EEE7607EC6 /* WTMultivariateOptimizeFactor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTMultivariateOptimizeFactor.h; path = Headers/WTMultivariateOptimizeFactor.h; sourceTree = "<group>"; };
+		65D0623EE1DF3EAF581B0BC0A9F00C61 /* Pods-ObjCSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ObjCSample-frameworks.sh"; sourceTree = "<group>"; };
+		6C79B49D115646CC6520ED6AFCA69FA8 /* WTOptimizeFactor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTOptimizeFactor.h; path = Headers/WTOptimizeFactor.h; sourceTree = "<group>"; };
+		6D79CDBEF832FB5A2106CDDC44C55D38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6F52058D5A12747CE4EA205D6985D2E6 /* WTOptimizeButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTOptimizeButton.h; path = Headers/WTOptimizeButton.h; sourceTree = "<group>"; };
+		73FD723BDE76C4E18679EA4A42A46F29 /* Pods-ObjCSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ObjCSample-acknowledgements.plist"; sourceTree = "<group>"; };
+		79DA29CD43BF21844CB390909D212732 /* WTOptimizeImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTOptimizeImageView.h; path = Headers/WTOptimizeImageView.h; sourceTree = "<group>"; };
+		8401DFC42A34ADC21582136B55BE8F6B /* WTOptimizeTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTOptimizeTest.h; path = Headers/WTOptimizeTest.h; sourceTree = "<group>"; };
+		86FF26C126AA6E24C8B0861D07BE1BA0 /* OptimizeSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OptimizeSDK.h; path = Headers/OptimizeSDK.h; sourceTree = "<group>"; };
+		89E9C30E0C1CA92A54F9FFA452EEDF3C /* WTImageOptimizeFactor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTImageOptimizeFactor.h; path = Headers/WTImageOptimizeFactor.h; sourceTree = "<group>"; };
+		8C6B89BDF4940B4AF9D57D7449055DAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		92286884AE2C8FE40338C66F5A603B32 /* Pods-ObjCSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ObjCSample-dummy.m"; sourceTree = "<group>"; };
+		95394BA14CAF751A823B141773DEBA5A /* opdb.sqlite */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = opdb.sqlite; path = SharedAssets/opdb.sqlite; sourceTree = "<group>"; };
+		96083078B5629144784C760C2FA045CD /* Pods-WTBank ObjC Watch App Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WTBank ObjC Watch App Extension.release.xcconfig"; sourceTree = "<group>"; };
+		989573047C60C388CC9FA58CBF4EB5AC /* WTOptimizeWebViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTOptimizeWebViewDelegate.h; path = Headers/WTOptimizeWebViewDelegate.h; sourceTree = "<group>"; };
+		99115B3725A7475F566C58FFC5CB796A /* WTOptimizeLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTOptimizeLabel.h; path = Headers/WTOptimizeLabel.h; sourceTree = "<group>"; };
+		A413A2BA4BEDAA9F7B805DBE43BA478D /* WTOptimizeTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTOptimizeTextView.h; path = Headers/WTOptimizeTextView.h; sourceTree = "<group>"; };
+		A84944D4455B5AFE989E8AFC259121C4 /* WTDataCollector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTDataCollector.h; path = Headers/WTDataCollector.h; sourceTree = "<group>"; };
+		AEFA8D6488465E14128AF5019487436F /* Pods-WTBank ObjC Watch App Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WTBank ObjC Watch App Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B93581B3D490D2B6D4FC03CBD56C6D98 /* Pods-WTBank ObjC Watch App Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WTBank ObjC Watch App Extension-frameworks.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC0A80780971145DAA357360516B5226 /* WTConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTConstants.h; path = Headers/WTConstants.h; sourceTree = "<group>"; };
+		C220EFE781F219D1BDEF175B59ECFF5D /* Pods-ObjCSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ObjCSample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C344DB96E71D71EF72C76A556000889E /* libOptimizeSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libOptimizeSDK.a; sourceTree = "<group>"; };
+		C4B3A44B59AFF8EE6935DD9C2615F7D3 /* Pods-WTBank ObjC Watch App Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WTBank ObjC Watch App Extension-dummy.m"; sourceTree = "<group>"; };
+		C4D40F58823BD672C7CAE0B2614E8351 /* WTWatchDataCollector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTWatchDataCollector.h; path = WatchHeaders/WTWatchDataCollector.h; sourceTree = "<group>"; };
+		C552EDDA38D6FA1C99802EC915EC9753 /* Pods-WTBank ObjC Watch App Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WTBank ObjC Watch App Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		D6A546564CC54D27B0130B747B7D8581 /* Pods-ObjCSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ObjCSample.debug.xcconfig"; sourceTree = "<group>"; };
+		E2783E129127C5E76F155CB3CCA2F300 /* WTWatchEventSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTWatchEventSupport.h; path = WatchHeaders/WTWatchEventSupport.h; sourceTree = "<group>"; };
+		E2D70BCA675609EA3B1F67777F8EEB54 /* Pods-WTBank ObjC Watch App Extension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WTBank ObjC Watch App Extension-resources.sh"; sourceTree = "<group>"; };
+		F47291ED45C95068511BC98DD327DF81 /* Pods-ObjCSample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ObjCSample-resources.sh"; sourceTree = "<group>"; };
+		F4D2FE027788CFF7944CA6A46C6739F9 /* WTSwitchingOptimizeFactor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTSwitchingOptimizeFactor.h; path = Headers/WTSwitchingOptimizeFactor.h; sourceTree = "<group>"; };
+		F79E8F9788AAFFA07EC07F22CC662BF7 /* libPods-ObjCSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjCSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FEB259D34DB38FF108E44720E88DF16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8146E471FEF3FF8DD17E8DB97D120418 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D172A828CE7E8D10328956FFE95496E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C14EE700774665ACADDAD115205D13C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01FB24E39A7D4D7716A8679049332750 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				003533544A0DA63182E0F0C3355579D7 /* libWebtrendsWatchSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		135227E75492F77068DE7B4ACA79BF1E /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				0389F2E681029FBF72A19BE7F69A3A3F /* WebtrendsWatchSDK.h */,
+				C4D40F58823BD672C7CAE0B2614E8351 /* WTWatchDataCollector.h */,
+				E2783E129127C5E76F155CB3CCA2F300 /* WTWatchEventSupport.h */,
+				01FB24E39A7D4D7716A8679049332750 /* Frameworks */,
+			);
+			name = Watch;
+			sourceTree = "<group>";
+		};
+		49D5707240912869D0966C2D4A701EE9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4B58A47EBC7EDB9021FA2EAE8605F40D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C344DB96E71D71EF72C76A556000889E /* libOptimizeSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5122A3F52D800E80BACD9CC992713105 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				8C6B89BDF4940B4AF9D57D7449055DAA /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		6A9960F03644C0324CDA42CD55EC12F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29F7CA6687FF1FBD868103FF069BB407 /* libWebtrendsSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CB6D87D424F9A0380D4EE4339822CCF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				95394BA14CAF751A823B141773DEBA5A /* opdb.sqlite */,
+				041B633A0FF78D8481724DEA05E866F0 /* wtdb.sqlite */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				8F91EE078EA3977443D1BDC2601132EF /* Frameworks */,
+				D90C6AA776FBB923CAE731AC57D17630 /* Pods */,
+				E297D32042FC9D776658D6D6E01FB1EA /* Products */,
+				EF094099BD6F7841F622D72C88B1E0D6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7ED2511613FF9E5ED472209C38DA9C54 /* Webtrends-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				98F176EE3D3E057CFAFA13F1CE858614 /* Core */,
+				F539C680DBD5AE077A95C7CE9B4C9849 /* Optimize */,
+				135227E75492F77068DE7B4ACA79BF1E /* Watch */,
+			);
+			path = "Webtrends-SDK";
+			sourceTree = "<group>";
+		};
+		8F91EE078EA3977443D1BDC2601132EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEA166D13A2FBD7DDAD7CEE0F68399FD /* iOS */,
+				5122A3F52D800E80BACD9CC992713105 /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98F176EE3D3E057CFAFA13F1CE858614 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				86FF26C126AA6E24C8B0861D07BE1BA0 /* OptimizeSDK.h */,
+				04A6CFF8DADFBC5B684FA909658694D5 /* WebtrendsSDK.h */,
+				BC0A80780971145DAA357360516B5226 /* WTConstants.h */,
+				A84944D4455B5AFE989E8AFC259121C4 /* WTDataCollector.h */,
+				54EDD8FC783C0BF7B5F4EDCF2D6896E8 /* WTEventSupport.h */,
+				89E9C30E0C1CA92A54F9FFA452EEDF3C /* WTImageOptimizeFactor.h */,
+				589E2ACED2622223F2C438EEE7607EC6 /* WTMultivariateOptimizeFactor.h */,
+				6F52058D5A12747CE4EA205D6985D2E6 /* WTOptimizeButton.h */,
+				6C79B49D115646CC6520ED6AFCA69FA8 /* WTOptimizeFactor.h */,
+				79DA29CD43BF21844CB390909D212732 /* WTOptimizeImageView.h */,
+				99115B3725A7475F566C58FFC5CB796A /* WTOptimizeLabel.h */,
+				2860D6C0D3611D174CE8D6A211278A00 /* WTOptimizeManager.h */,
+				8401DFC42A34ADC21582136B55BE8F6B /* WTOptimizeTest.h */,
+				18B5A99071E2B7C023CB244A6BE94CD5 /* WTOptimizeTextField.h */,
+				A413A2BA4BEDAA9F7B805DBE43BA478D /* WTOptimizeTextView.h */,
+				989573047C60C388CC9FA58CBF4EB5AC /* WTOptimizeWebViewDelegate.h */,
+				F4D2FE027788CFF7944CA6A46C6739F9 /* WTSwitchingOptimizeFactor.h */,
+				3F9A39A96D53293D0FB2A4264618AC8F /* WTWebViewDelegate.h */,
+				6A9960F03644C0324CDA42CD55EC12F6 /* Frameworks */,
+				7CB6D87D424F9A0380D4EE4339822CCF /* Resources */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		BEA166D13A2FBD7DDAD7CEE0F68399FD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6D79CDBEF832FB5A2106CDDC44C55D38 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D3A01313F99F48B09201C7CD5F8315EB /* Pods-ObjCSample */ = {
+			isa = PBXGroup;
+			children = (
+				C220EFE781F219D1BDEF175B59ECFF5D /* Pods-ObjCSample-acknowledgements.markdown */,
+				73FD723BDE76C4E18679EA4A42A46F29 /* Pods-ObjCSample-acknowledgements.plist */,
+				92286884AE2C8FE40338C66F5A603B32 /* Pods-ObjCSample-dummy.m */,
+				65D0623EE1DF3EAF581B0BC0A9F00C61 /* Pods-ObjCSample-frameworks.sh */,
+				F47291ED45C95068511BC98DD327DF81 /* Pods-ObjCSample-resources.sh */,
+				D6A546564CC54D27B0130B747B7D8581 /* Pods-ObjCSample.debug.xcconfig */,
+				0FEB744C6181D70267D32205B49EF8D9 /* Pods-ObjCSample.release.xcconfig */,
+			);
+			name = "Pods-ObjCSample";
+			path = "Target Support Files/Pods-ObjCSample";
+			sourceTree = "<group>";
+		};
+		D60679E4B7E7025AF969A7D99DBFC22F /* Pods-WTBank ObjC Watch App Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AEFA8D6488465E14128AF5019487436F /* Pods-WTBank ObjC Watch App Extension-acknowledgements.markdown */,
+				3A7ACED1A618828222EF3B486128DD71 /* Pods-WTBank ObjC Watch App Extension-acknowledgements.plist */,
+				C4B3A44B59AFF8EE6935DD9C2615F7D3 /* Pods-WTBank ObjC Watch App Extension-dummy.m */,
+				B93581B3D490D2B6D4FC03CBD56C6D98 /* Pods-WTBank ObjC Watch App Extension-frameworks.sh */,
+				E2D70BCA675609EA3B1F67777F8EEB54 /* Pods-WTBank ObjC Watch App Extension-resources.sh */,
+				C552EDDA38D6FA1C99802EC915EC9753 /* Pods-WTBank ObjC Watch App Extension.debug.xcconfig */,
+				96083078B5629144784C760C2FA045CD /* Pods-WTBank ObjC Watch App Extension.release.xcconfig */,
+			);
+			name = "Pods-WTBank ObjC Watch App Extension";
+			path = "Target Support Files/Pods-WTBank ObjC Watch App Extension";
+			sourceTree = "<group>";
+		};
+		D90C6AA776FBB923CAE731AC57D17630 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7ED2511613FF9E5ED472209C38DA9C54 /* Webtrends-SDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E297D32042FC9D776658D6D6E01FB1EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F79E8F9788AAFFA07EC07F22CC662BF7 /* libPods-ObjCSample.a */,
+				580E60B35D2971F7CD3F40C7FF2C60A6 /* libPods-WTBank ObjC Watch App Extension.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF094099BD6F7841F622D72C88B1E0D6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3A01313F99F48B09201C7CD5F8315EB /* Pods-ObjCSample */,
+				D60679E4B7E7025AF969A7D99DBFC22F /* Pods-WTBank ObjC Watch App Extension */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F539C680DBD5AE077A95C7CE9B4C9849 /* Optimize */ = {
+			isa = PBXGroup;
+			children = (
+				4B58A47EBC7EDB9021FA2EAE8605F40D /* Frameworks */,
+				49D5707240912869D0966C2D4A701EE9 /* Resources */,
+			);
+			name = Optimize;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3FA36FFF90161D9B8E3810C491ABDAD /* Pods-ObjCSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C5B93E095DAF7C244D8084D79169837 /* Build configuration list for PBXNativeTarget "Pods-ObjCSample" */;
+			buildPhases = (
+				8C712C84D807C09B5450B6919B94AEFC /* Sources */,
+				1FEB259D34DB38FF108E44720E88DF16 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ObjCSample";
+			productName = "Pods-ObjCSample";
+			productReference = F79E8F9788AAFFA07EC07F22CC662BF7 /* libPods-ObjCSample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B66F111D080585B12FB290C4319031E4 /* Pods-WTBank ObjC Watch App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76A897929F5225ABF796816868B59105 /* Build configuration list for PBXNativeTarget "Pods-WTBank ObjC Watch App Extension" */;
+			buildPhases = (
+				D92C754458CCBED7693A33EABC64F680 /* Sources */,
+				7D172A828CE7E8D10328956FFE95496E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WTBank ObjC Watch App Extension";
+			productName = "Pods-WTBank ObjC Watch App Extension";
+			productReference = 580E60B35D2971F7CD3F40C7FF2C60A6 /* libPods-WTBank ObjC Watch App Extension.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E297D32042FC9D776658D6D6E01FB1EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3FA36FFF90161D9B8E3810C491ABDAD /* Pods-ObjCSample */,
+				B66F111D080585B12FB290C4319031E4 /* Pods-WTBank ObjC Watch App Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C712C84D807C09B5450B6919B94AEFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2911C237F8AF74120064585AD708689A /* Pods-ObjCSample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D92C754458CCBED7693A33EABC64F680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41CB74A44299F721C4B88C185426AB3E /* Pods-WTBank ObjC Watch App Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		09ADF5271FF3FB5E432E6EA98F7983B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96083078B5629144784C760C2FA045CD /* Pods-WTBank ObjC Watch App Extension.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		0BE8D59EAEC31CC826D16A99AAA7CE52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FEB744C6181D70267D32205B49EF8D9 /* Pods-ObjCSample.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0CEBD88F9DE722F69721AEC7BDB6C385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6A546564CC54D27B0130B747B7D8581 /* Pods-ObjCSample.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		515C632D15785B39656A24FC66C63AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		D9B099BE7626556CE3F898C02D7E7746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		EED233C581348CC5C0006F4A62CE5668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C552EDDA38D6FA1C99802EC915EC9753 /* Pods-WTBank ObjC Watch App Extension.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C5B93E095DAF7C244D8084D79169837 /* Build configuration list for PBXNativeTarget "Pods-ObjCSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CEBD88F9DE722F69721AEC7BDB6C385 /* Debug */,
+				0BE8D59EAEC31CC826D16A99AAA7CE52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515C632D15785B39656A24FC66C63AB9 /* Debug */,
+				D9B099BE7626556CE3F898C02D7E7746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76A897929F5225ABF796816868B59105 /* Build configuration list for PBXNativeTarget "Pods-WTBank ObjC Watch App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED233C581348CC5C0006F4A62CE5668 /* Debug */,
+				09ADF5271FF3FB5E432E6EA98F7983B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9515"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="SwiftSampleWatch" customModuleProvider="target">
+                    <items>
+                        <button width="1" alignment="left" title="Refresh Balance" id="il8-0E-f3c">
+                            <connections>
+                                <action selector="refreshBalance" destination="AgC-eL-Hgc" id="wZX-mC-q4X"/>
+                            </connections>
+                        </button>
+                        <label width="136" alignment="left" text="$100" textAlignment="center" id="QHU-q6-ZeJ"/>
+                    </items>
+                    <connections>
+                        <outlet property="balanceLabel" destination="QHU-q6-ZeJ" id="7vj-lH-KOt"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="592" y="312"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Webtrends-SDK"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Webtrends-SDK" $(inherited) "${PODS_ROOT}/Webtrends-SDK"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Webtrends-SDK"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"OptimizeSDK" -l"WebtrendsSDK" -l"sqlite3" -l"z" -framework "CoreTelephony" -framework "Foundation" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -framework "WebKit"
+PODS_ROOT = ${SRCROOT}/Pods

@@ -1,0 +1,12 @@
+#source 'https://github.com/CocoaPods/Specs.git'
+source 'https://gh.webtrends.corp/cloughb/ios-pod.git'
+
+target 'ObjCSample' do
+  pod 'Webtrends-SDK/Core'
+  pod 'Webtrends-SDK/Optimize', '~>3.0'
+end
+target 'WTBank ObjC Watch App Extension' do
+  pod 'Webtrends-SDK/Watch'
+  platform :watchos, '2.0'
+end
+
