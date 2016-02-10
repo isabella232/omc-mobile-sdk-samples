@@ -1,1 +1,0 @@
-../../../Webtrends-SDK/Headers/WTImageOptimizeFactor.h

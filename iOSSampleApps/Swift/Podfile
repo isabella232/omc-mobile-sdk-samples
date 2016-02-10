@@ -1,5 +1,4 @@
-#source 'https://github.com/CocoaPods/Specs.git'
-source 'https://gh.webtrends.corp/cloughb/ios-pod.git'
+source 'https://github.com/CocoaPods/Specs.git'
 
 target 'SwiftSample' do
   pod 'Webtrends-SDK/Core', '~>3.0'
