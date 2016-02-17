@@ -755,7 +755,6 @@
 		};
 		180655A61B34D9B700845CFF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBB54B0FC96207416688A10A /* Pods-SwiftSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -771,7 +770,6 @@
 		};
 		180655A71B34D9B700845CFF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FA248200C47914D097BA792 /* Pods-SwiftSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -823,7 +821,6 @@
 		};
 		7F62FB151C4D99B1009EDDB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B98951C4CE28342D2FEF353 /* Pods-SwiftSampleWatch Extension.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
@@ -843,7 +840,6 @@
 		};
 		7F62FB161C4D99B1009EDDB4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FB976A57AD02CFBA3166FB0 /* Pods-SwiftSampleWatch Extension.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";

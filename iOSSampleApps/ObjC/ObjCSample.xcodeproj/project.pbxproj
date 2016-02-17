@@ -35,7 +35,6 @@
 		18ECFA121B39FD3400B7ED34 /* InvestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ECFA111B39FD3400B7ED34 /* InvestViewController.m */; };
 		18ECFA151B39FD3C00B7ED34 /* ProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ECFA141B39FD3C00B7ED34 /* ProductViewController.m */; };
 		18ECFA181B39FD4400B7ED34 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ECFA171B39FD4400B7ED34 /* SettingsViewController.m */; };
-		7621F6BF6A37274CEC2A319B /* libPods-ObjCSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7510E59BB200C23178B99C66 /* libPods-ObjCSample.a */; };
 		7FCA5B5D1C58214600DBD2BF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FCA5B5B1C58214600DBD2BF /* Interface.storyboard */; };
 		7FCA5B5F1C58214600DBD2BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FCA5B5E1C58214600DBD2BF /* Assets.xcassets */; };
 		7FCA5B661C58214600DBD2BF /* WTBank ObjC Watch App Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7FCA5B651C58214600DBD2BF /* WTBank ObjC Watch App Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -44,7 +43,6 @@
 		7FCA5B711C58214600DBD2BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FCA5B701C58214600DBD2BF /* Assets.xcassets */; };
 		7FCA5B751C58214600DBD2BF /* WTBank ObjC Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7FCA5B591C58214600DBD2BF /* WTBank ObjC Watch App.app */; };
 		7FCA5B7F1C583B2B00DBD2BF /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCA5B7E1C583B2B00DBD2BF /* AboutUsViewController.m */; };
-		FA02571BFB6CF665942ADA1B /* libPods-WTBank ObjC Watch App Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FCD2C1B96B152A864E677F /* libPods-WTBank ObjC Watch App Extension.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -147,9 +145,6 @@
 		18ECFA141B39FD3C00B7ED34 /* ProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductViewController.m; sourceTree = "<group>"; };
 		18ECFA161B39FD4400B7ED34 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		18ECFA171B39FD4400B7ED34 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
-		703553816FEF3C90321298DA /* libPods-WTBank ObjC WatchKit Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WTBank ObjC WatchKit Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7510E59BB200C23178B99C66 /* libPods-ObjCSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjCSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D5A93700B7073B51CAED977 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FCA5B591C58214600DBD2BF /* WTBank ObjC Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WTBank ObjC Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FCA5B5C1C58214600DBD2BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		7FCA5B5E1C58214600DBD2BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -163,7 +158,6 @@
 		7FCA5B721C58214600DBD2BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FCA5B7D1C583B2B00DBD2BF /* AboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
 		7FCA5B7E1C583B2B00DBD2BF /* AboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
-		95FCD2C1B96B152A864E677F /* libPods-WTBank ObjC Watch App Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WTBank ObjC Watch App Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96888C2BF4B61E48DC0ADBD5 /* Pods-ObjCSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjCSample/Pods-ObjCSample.debug.xcconfig"; sourceTree = "<group>"; };
 		9B96EE2B0058CECA37E3DABB /* Pods-WTBank ObjC Watch App Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTBank ObjC Watch App Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-WTBank ObjC Watch App Extension/Pods-WTBank ObjC Watch App Extension.release.xcconfig"; sourceTree = "<group>"; };
 		F6C082C7344EF6A1754AF1C9 /* Pods-WTBank ObjC Watch App Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTBank ObjC Watch App Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WTBank ObjC Watch App Extension/Pods-WTBank ObjC Watch App Extension.debug.xcconfig"; sourceTree = "<group>"; };
@@ -174,7 +168,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7621F6BF6A37274CEC2A319B /* libPods-ObjCSample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,7 +182,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA02571BFB6CF665942ADA1B /* libPods-WTBank ObjC Watch App Extension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,10 +318,6 @@
 		DD8AF75D70A02D2687F5E554 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7D5A93700B7073B51CAED977 /* libPods.a */,
-				7510E59BB200C23178B99C66 /* libPods-ObjCSample.a */,
-				703553816FEF3C90321298DA /* libPods-WTBank ObjC WatchKit Extension.a */,
-				95FCD2C1B96B152A864E677F /* libPods-WTBank ObjC Watch App Extension.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -770,7 +758,6 @@
 		};
 		18BE374E1B39F7D0009AFE2D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96888C2BF4B61E48DC0ADBD5 /* Pods-ObjCSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ObjCSample/Info.plist;
@@ -782,7 +769,6 @@
 		};
 		18BE374F1B39F7D0009AFE2D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F30CEB6D5A2456F7268172C /* Pods-ObjCSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ObjCSample/Info.plist;
@@ -828,7 +814,6 @@
 		};
 		7FCA5B771C58214600DBD2BF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6C082C7344EF6A1754AF1C9 /* Pods-WTBank ObjC Watch App Extension.debug.xcconfig */;
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
@@ -845,7 +830,6 @@
 		};
 		7FCA5B781C58214600DBD2BF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B96EE2B0058CECA37E3DABB /* Pods-WTBank ObjC Watch App Extension.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "WTBank ObjC Watch App Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";

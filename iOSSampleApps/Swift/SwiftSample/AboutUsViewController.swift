@@ -44,6 +44,7 @@ class AboutUsViewController: UIViewController {
     
     func fetchTestWithData(data: [String: String]?) {
 
+        // Since fetching the test from the server will take a while, we want to present a spinner to the user.
         let overlay = UIView(frame: UIScreen.mainScreen().bounds)
         overlay.backgroundColor = UIColor.blackColor().colorWithAlphaComponent(0.5)
         self.view.window?.addSubview(overlay)
@@ -53,12 +54,20 @@ class AboutUsViewController: UIViewController {
         overlay.addSubview(spinner)
         spinner.startAnimating()
         
+        // fetchTestLocation is a blocking method that makes a network call to the Optimize server.
+        // data is a dictionary of String:String and will contain "greeting":"personal" or "greeting":"generic" or nil
         WTOptimizeManager.sharedManager().fetchTestLocation("WTBankSample.app/customDataTest", customData: data, completion: { (tests, error) -> Void in
             overlay.removeFromSuperview()
+            
+            // Set up a default greeting
             var greeting = "No Greeting Returned from Server"
+            
+            // Create a test factor for the ID_messageText UI element (pre-defined in Optimize server)
             if let factor = tests?.first?.factorForIdentifier("ID_messageText") as? WTMultivariateOptimizeFactor {
                 greeting = factor.text
             }
+            
+            // Display the greeting returned from the Optimize server
             let alert = UIAlertController(title: "Greetings!", message: greeting, preferredStyle: .Alert)
             let ok = UIAlertAction(title: "OK", style: .Cancel, handler:nil)
             alert.addAction(ok)
