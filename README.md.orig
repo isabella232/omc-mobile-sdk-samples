@@ -1,0 +1,17 @@
+# mobile-sdk-sample-apps
+<<<<<<< HEAD
+A repo containing the sample apps for Android, iOS, and Windows sample apps.
+
+##iOS Sample Apps
+* Objective-C Sample App
+* Swift Sample App
+
+##Android Sample App
+Coming soon
+
+##Windows Mobile Sample App
+Coming soon
+
+=======
+Sample mobile applications using the Webtrends Mobile SDKs
+>>>>>>> f33e8303d85bfe51fb4d6ade5fd01a3c9add1a09
