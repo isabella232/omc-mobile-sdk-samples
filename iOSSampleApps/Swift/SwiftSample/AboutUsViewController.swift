@@ -82,25 +82,4 @@ class AboutUsViewController: UIViewController {
             }
         }
     }
-    
-    func myFunc() {
-        // Get a handle to the Optimize Manager singleton
-        let manager = WTOptimizeManager.sharedManager()
-        
-        // Access the factor defined in the JSON above
-        let factor = manager.optimizeFactorForIdentifier("mouseParty")
-        
-        // Extract the raw JSON from the factor
-        let json = factor?.rawValue.objectForKey("mouseParty") as? NSDictionary
-        
-        // Create a boolean variable from the target key/value in the JSON
-        if let miceCanPlay = json!["miceCanPlay"]!.boolValue {
-            if miceCanPlay {
-                // Code to run when the party is on
-            }
-            else {
-                // Code to run when the cat is watching
-            }
-        }
-    }
 }
