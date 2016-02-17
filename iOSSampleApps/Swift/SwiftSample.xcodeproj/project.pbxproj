@@ -408,6 +408,7 @@
 				TargetAttributes = {
 					180655851B34D9B700845CFF = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 5K86DA88D2;
 					};
 					1806559A1B34D9B700845CFF = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -418,6 +419,7 @@
 					};
 					7F62FB041C4D99B0009EDDB4 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5K86DA88D2;
 					};
 				};
 			};
@@ -756,10 +758,13 @@
 			baseConfigurationReference = BBB54B0FC96207416688A10A /* Pods-SwiftSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SwiftSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.webtrends.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = SwiftSample/BridgingHeader.h;
 			};
 			name = Debug;
@@ -769,10 +774,13 @@
 			baseConfigurationReference = 1FA248200C47914D097BA792 /* Pods-SwiftSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SwiftSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.webtrends.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = SwiftSample/BridgingHeader.h;
 			};
 			name = Release;
@@ -817,11 +825,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1B98951C4CE28342D2FEF353 /* Pods-SwiftSampleWatch Extension.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				INFOPLIST_FILE = "SwiftSampleWatch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.webtrends.SwiftSample.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/SwiftSampleWatch Extension/SwiftSampleWatchBridgingHeader.h";
@@ -834,10 +845,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6FB976A57AD02CFBA3166FB0 /* Pods-SwiftSampleWatch Extension.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "SwiftSampleWatch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.webtrends.SwiftSample.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/SwiftSampleWatch Extension/SwiftSampleWatchBridgingHeader.h";
