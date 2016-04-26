@@ -11,12 +11,14 @@
 	<key>wt_opt_url_base</key>
 	<string>https://ots.optimize.webtrends.com/ots/api/rest-1.1/</string>
 	<key>wt_opt_project_locations</key>
-	<string>WTBankSample.app/persistent, WTBankSample.app/aboutUs, WTBankSample.app/switchOnValue</string>
+	<string>WTBankSample.app/persistent,WTBankSample.app/aboutUs,WTBankSample.app/switchOnValue</string>
 	<key>wt_opt_domain_id</key>
 	<string>1420633</string>
 	<key>wt_opt_key_token</key>
 	<string>7a01ed49fe009bf5bb2a9f85ba0d2239bf270563838d</string>
 	<key>wt_opt_staging_mode</key>
 	<string>true</string>
+	<key>wt_opt_account_guid</key>
+	<string>hdaj7mdxu7</string>
 </dict>
 </plist>

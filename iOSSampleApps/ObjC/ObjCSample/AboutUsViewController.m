@@ -19,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     WTOptimizeManager *manager = [WTOptimizeManager sharedManager];
-    [manager triggerPageView:self withTestAlias:@"ta_WT" projectLocation:@"WTBankSample.app/persistent"];
+    [manager triggerPageView:self withTestAlias:@"ta_Optimize" projectLocation:@"WTBankSample.app/persistent"];
     WTSwitchingOptimizeFactor *factor = (WTSwitchingOptimizeFactor *) [manager optimizeFactorForIdentifier:@"$wt_m_ID_switchValue_0"];
     switch (factor.selectedOption) {
         case 1:
@@ -54,7 +54,7 @@
 */
 - (IBAction)sendConversion:(id)sender {
     WTOptimizeManager *manager = [WTOptimizeManager sharedManager];
-    [manager triggerEventForConversionWithTestAlias:@"ta_WT" projectLocation:@"WTBankSample.app/persistent" conversionPoint:@"cp_clickedConvertButton"];
+    [manager triggerEventForConversionWithTestAlias:@"ta_Optimize" projectLocation:@"WTBankSample.app/persistent" conversionPoint:@"cp_clickedConvertButton"];
 }
 - (IBAction)greet:(id)sender {
     UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Send Message" message:@"Send a message to the Optimize server" preferredStyle:UIAlertControllerStyleActionSheet];

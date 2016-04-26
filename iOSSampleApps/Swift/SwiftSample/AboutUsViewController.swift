@@ -12,7 +12,7 @@ class AboutUsViewController: UIViewController {
     
     @IBAction func sendConversion(sender: AnyObject) {
         let manager = WTOptimizeManager.sharedManager()
-        manager.triggerEventForConversionWithTestAlias("ta_WT", projectLocation: "WTBankSample.app/persistent", conversionPoint: "cp_clickedconvertbutton")
+        manager.triggerEventForConversionWithTestAlias("ta_Optimize", projectLocation: "WTBankSample.app/persistent", conversionPoint: "cp_clickedconvertbutton")
     }
 
     
@@ -77,7 +77,7 @@ class AboutUsViewController: UIViewController {
     
     override func viewDidLoad() {
         let manager = WTOptimizeManager.sharedManager()
-        manager.triggerPageView(self, withTestAlias: "ta_WT", projectLocation: "WTBankSample.app/persistent")
+        manager.triggerPageView(self, withTestAlias: "ta_Optimize", projectLocation: "WTBankSample.app/persistent")
         if let factor = manager.optimizeFactorForIdentifier("$wt_m_ID_switchValue_0") as? WTSwitchingOptimizeFactor {
             switch factor.selectedOption {
             case 1:

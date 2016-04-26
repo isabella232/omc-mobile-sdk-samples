@@ -18,5 +18,7 @@
 	<string>7a01ed49fe009bf5bb2a9f85ba0d2239bf270563838d</string>
 	<key>wt_opt_staging_mode</key>
 	<string>true</string>
+	<key>wt_opt_account_guid</key>
+	<string>hdaj7mdxu7</string>
 </dict>
 </plist>
