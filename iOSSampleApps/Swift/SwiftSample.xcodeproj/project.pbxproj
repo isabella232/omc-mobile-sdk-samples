@@ -322,13 +322,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 180655A51B34D9B700845CFF /* Build configuration list for PBXNativeTarget "SwiftSample" */;
 			buildPhases = (
-				D528C7B5EEE536DD196A79BC /* Check Pods Manifest.lock */,
 				180655821B34D9B700845CFF /* Sources */,
 				180655831B34D9B700845CFF /* Frameworks */,
 				180655841B34D9B700845CFF /* Resources */,
-				16769D9B4837D2F7B132CBE4 /* Copy Pods Resources */,
 				181C12531B3DC0A100F731AB /* Embed App Extensions */,
-				829C35FB911E243CAE2AB5EC /* Embed Pods Frameworks */,
 				7F62FB1B1C4D99B1009EDDB4 /* Embed Watch Content */,
 			);
 			buildRules = (
@@ -498,21 +495,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		16769D9B4837D2F7B132CBE4 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftSample/Pods-SwiftSample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5495258F7092302F4A07C29A /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -543,21 +525,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftSampleWatch Extension/Pods-SwiftSampleWatch Extension-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		829C35FB911E243CAE2AB5EC /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftSample/Pods-SwiftSample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		AE8E2938300C5B5F831CC1E2 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -571,21 +538,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftSampleWatch Extension/Pods-SwiftSampleWatch Extension-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D528C7B5EEE536DD196A79BC /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
